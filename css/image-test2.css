@@ -1,0 +1,41 @@
+.container {
+    border: 2px solid black;
+    height: 100%;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(12, 1fr);
+    /* grid-template-rows: 40vh 30vh 30vh; */
+    grid-template-rows: repeat(5, 30vh);
+    grid-template-areas: 
+        "h h h h h h h h h h h h"
+        "m c c c c c c c c c c c"
+        "m c c c c c c c c c c c"
+        "m c c c c c c c c c c c"
+        "f f f f f f f f f f f f";
+}
+
+.header {
+    background: turquoise;
+    grid-area: h;
+}
+
+.menu {
+    background: peru;
+    grid-area: m;
+}
+
+.content {
+    /* background: lawngreen; */
+    grid-area: c;
+}
+
+.content>img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.footer {
+    background: thistle;
+    grid-area: f;
+}

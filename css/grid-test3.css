@@ -1,0 +1,32 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: 50px 50px 200px;
+    grid-gap: 20px 30px;
+}
+
+.class-1 {
+    background: turquoise;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.class-2 {
+    background: tomato;
+}
+
+.class-3 {
+    background: palegreen;
+}
+
+.class-4 {
+    background: thistle;
+}
+
+.class-5 {
+    background: orchid;
+}
+
+.class-6 {
+    background: firebrick;
+}

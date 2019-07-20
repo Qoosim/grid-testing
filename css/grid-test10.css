@@ -1,0 +1,103 @@
+.wrapper {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /* grid-template-rows: repeat(2, 100px); /*This can be removed for /grid-auto-row* */
+    grid-auto-rows: 100px;
+}
+
+.one {
+    background: turquoise;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.two {
+    background: coral;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.three {
+    background: teal;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.four {
+    background: thistle;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.five {
+    background: rebeccapurple;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.six {
+    background: peru;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.seven {
+    background: turquoise;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.eigth {
+    background: peru;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.nine {
+    background: rebeccapurple;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.ten {
+    background: thistle;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.eleven {
+    background: coral;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.twelve {
+    background: yellowgreen;
+    color: white;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}

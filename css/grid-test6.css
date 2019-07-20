@@ -1,0 +1,29 @@
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 40px 200px 40px;
+}
+
+.header {
+    background: turquoise;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */  /* first way to span across columns*/
+    
+    /* grid-column: 1 / 3; /* second way to span across columns */
+
+    grid-column: 1 / -1; /* third way to span across columns*/
+}
+
+.menu {
+    background: tomato;
+}
+
+.content {
+    background: teal;
+}
+
+.footer {
+    background: thistle;
+    grid-column: 1 / 3;
+}

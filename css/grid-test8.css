@@ -1,0 +1,32 @@
+.wrapper {
+    height: 100%;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px auto 50px;
+    grid-template-areas: 
+        ". h h h h h h h h h h ."
+        "m c c c c c c c c c c c"
+        ". f f f f f f f f f f .";
+}
+
+.header {
+    background: turquoise;
+    grid-area: h;
+
+}
+
+.menu {
+    background: tomato;
+    grid-area: m;
+}
+
+.content {
+    background: teal;
+    grid-area: c;
+}
+
+.footer {
+    background: thistle;
+    grid-area: f;
+}

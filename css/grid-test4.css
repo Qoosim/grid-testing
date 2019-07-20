@@ -1,0 +1,30 @@
+.wrapper {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px); */
+    grid-template: repeat(2, 50px) / repeat(3, 1fr); /* Combination of both the columns and the rows*/
+}
+
+.class-1 {
+    background: turquoise;
+}
+
+.class-2 {
+    background: tomato;
+}
+
+.class-3 {
+    background: teal;
+}
+
+.class-4 {
+    background: thistle;
+}
+
+.class-5 {
+    background: orchid;
+}
+
+.class-6 {
+    background: firebrick;
+}

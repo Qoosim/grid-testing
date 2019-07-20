@@ -1,0 +1,25 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 40px 100px 40px;
+}
+
+.header {
+    background: turquoise;
+    grid-column: span 12;
+}
+
+.menu {
+    background: coral;
+    grid-column: span 4;
+}
+
+.content {
+    background: goldenrod;
+    grid-column: span 8;
+}
+
+.footer {
+    background: turquoise;
+    grid-column: span 12;
+}
